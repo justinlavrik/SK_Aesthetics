@@ -12,6 +12,30 @@ body, p, a, li, h3, h4, h5, h6 {
   color: inherit !important;
 }
 
+#block-7,
+#block-12,
+#sec-e566 {
+  background-color: #C8BFB6 !important;
+}
+
+#contact-block {
+  background-color: #C28991;
+}
+
+/* Force white text color inside #contact-block */
+#contact-block, 
+#contact-block h2, 
+#contact-block h5, 
+#contact-block p,
+#contact-block span {
+  color: white !important;
+}
+
+#block-14,
+#sec-b3a3 {
+  background-color: #F2E9E4 !important;
+}
+
 #btn-emphasis,
 #btn-emphasis-2,
 #btn-emphasis-3,
