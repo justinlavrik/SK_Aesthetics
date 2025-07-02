@@ -1320,6 +1320,8 @@ body, p, a, li, h3, h4, h5, h6 {
 
 .u-section-7 .u-text-1 {
   margin: 60px auto 0;
+  font-size: 4.5rem;
+  font-weight: 700;
 }
 
 .u-section-7 .u-text-2 {
@@ -1839,7 +1841,6 @@ body, p, a, li, h3, h4, h5, h6 {
 
 .u-section-8 .u-text-1 {
   font-weight: 700;
-  font-size: 3rem;
   margin: 43px auto 0;
 }
 

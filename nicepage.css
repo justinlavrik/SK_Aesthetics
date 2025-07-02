@@ -19,6 +19,15 @@ body, p, span, a, li, h1, h2, h3, h4, h5, h6, .u-text {
 }
 
 
+.u-popupmenu-items .u-nav-item a {
+  margin-left: 71px;
+}
+
+#dropdown-behandlung {
+  background-color: #eae0dc;
+  margin-top: 7px;
+}
+
 
 
 .fr-clearfix::after {
@@ -46856,7 +46865,7 @@ a.u-link.u-text-hover-color-var:hover {
   }
 
   .u-header .u-nav-3 {
-    margin-left: 71px;
+    margin-left: 0;
   }
 
   .u-header .u-social-icons-1 {
