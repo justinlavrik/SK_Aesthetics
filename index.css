@@ -1,3 +1,37 @@
+h1, h2 {
+  font-family: 'SafiraMarchPersonalUseOnly', serif !important;
+}
+
+body, p, a, li, h3, h4, h5, h6 {
+  font-family: 'Evolventa', sans-serif !important;
+  font-weight: 300 !important;
+}
+
+#block-2 .u-text-1,
+#block-2 .u-text-2 {
+  color: inherit !important;
+}
+
+#btn-emphasis,
+#btn-emphasis-2,
+#btn-emphasis-3,
+#btn-emphasis-4 {
+  color: #ffffff !important;
+  background-color: #C28991 !important;
+  border-color: #C28991 !important;
+  transition: background-color 0.5s ease, border-color 0.5s ease;
+}
+#btn-emphasis:hover,
+#btn-emphasis-2:hover,
+#btn-emphasis-3:hover,
+#btn-emphasis-4:hover  {
+  color: #ffffff !important;
+  background-color: #91686e !important;
+  border-color: #91686e !important;
+}
+
+ 
+ 
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/JPEG-4AB3-B77B-93-0.jpeg');
   background-position: 50% 50%, 50% 50%;
@@ -7,26 +41,47 @@
 
 .u-section-1 .u-sheet-1 {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  position: relative;
 }
 
 .u-section-1 .u-text-1 {
   text-transform: uppercase;
-  font-family: SafiraMarchPersonalUseOnly;
+  font-family: SafiraMarchPersonalUseOnly !important;
   letter-spacing: 2px;
-  margin: 488px 0 0;
+  margin: 0;
 }
 
+.u-section-1 .u-text-1,
 .u-section-1 .u-text-2 {
-  font-family: SafiraMarchPersonalUseOnly;
-  font-size: 9.375rem;
+  white-space: nowrap;
+  width: 100%;
+  text-align: center;
+}
+
+
+.u-section-1 .u-text-2 {
+  font-family: SafiraMarchPersonalUseOnly !important;
+  font-size: clamp(2rem, 12vw, 9.375rem);
   letter-spacing: 6px;
   font-weight: 600;
-  margin: 30px 0 0;
+  margin: 10px 0 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0 10px
+}
+
+#logo h2, #logo p {
+  font-family: SafiraMarchPersonalUseOnly !important;
 }
 
 .u-section-1 .u-layout-wrap-1 {
   width: 431px;
-  margin: 30px auto 0 0;
+  margin: 0;
+  align-self: flex-start;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -64,6 +119,11 @@
 }
 
 .u-section-1 .u-text-3 {
+  margin: 0;
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+
   font-size: 1.25rem;
   font-weight: 400;
   margin: -46px 0 0 694px;
@@ -150,9 +210,6 @@
     margin-top: 441px;
   }
 
-  .u-section-1 .u-text-2 {
-    font-size: 4.0625rem;
-  }
 
   .u-section-1 .u-layout-wrap-1 {
     margin-top: 50px;
@@ -197,20 +254,12 @@
     min-height: 753px;
   }
 
-  .u-section-1 .u-text-1 {
-    margin-top: 367px;
-  }
-
   .u-section-1 .u-text-2 {
     font-size: 2.3125rem;
-    margin-top: 16px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: 74px;
     width: auto;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -233,11 +282,6 @@
     margin-right: auto;
     padding-right: 109px;
     padding-left: 107px;
-  }
-
-  .u-section-1 .u-text-3 {
-    margin-top: -234px;
-    margin-right: 44px;
   }
 }
 
@@ -503,8 +547,8 @@
 
 .u-section-4 .u-repeater-1 {
   --gap: 10px;
-  grid-auto-columns: calc(33.3333% - 6.66667px);
-  grid-template-columns: repeat(3, calc(33.3333% - 6.66667px));
+  grid-auto-columns: calc(25% - 6.66667px);
+  grid-template-columns: repeat(4, calc(25% - 6.66667px));
   min-height: 379px;
 }
 
