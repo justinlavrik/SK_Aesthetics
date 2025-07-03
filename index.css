@@ -54,6 +54,13 @@ body, p, a, li, h3, h4, h5, h6 {
   border-color: #91686e !important;
 }
 
+
+.u-section-8 .u-gallery-inner-1 {
+  padding-bottom: 50px;
+}
+
+
+
  
  
  .u-section-1 {
@@ -466,7 +473,7 @@ body, p, a, li, h3, h4, h5, h6 {
 
 .u-section-3 .u-image-1 {
   min-height: 637px;
-  background-image: url("images/pexels-karolina-grabowska-6954845.jpg");
+  background-image: url("images/uber-uns.jpg");
   background-position: 50% 50%;
 }
 
@@ -565,7 +572,7 @@ body, p, a, li, h3, h4, h5, h6 {
 }
 
 .u-section-4 .u-list-1 {
-  margin-top: 105px;
+  margin-top: 45px;
   margin-bottom: 60px;
 }
 
@@ -577,7 +584,7 @@ body, p, a, li, h3, h4, h5, h6 {
 }
 
 .u-section-4 .u-image-1 {
-  background-image: url("images/2025-07-0102.47.17.jpg");
+  background-image: url("images/b1.jpg");
   background-position: 50% 50%;
 }
 
@@ -588,7 +595,15 @@ body, p, a, li, h3, h4, h5, h6 {
 .u-section-4 .u-group-elements-1 {
   width: 190px;
   min-height: 42px;
-  margin: 316px auto 0 14px;
+  margin: 280px auto 0 14px;
+}
+
+.u-section-4 .u-group-elements-22 {
+  margin-left: 20px;
+}
+
+.u-section-4 .u-group-elements-22 p {
+  color: white !important;
 }
 
 .u-section-4 .u-btn-1 {
@@ -612,7 +627,7 @@ body, p, a, li, h3, h4, h5, h6 {
 }
 
 .u-section-4 .u-image-2 {
-  background-image: url("images/2025-07-0102.51.05.jpg");
+  background-image: url("images/b2.jpg");
   background-position: 50% 50%;
 }
 
@@ -623,7 +638,7 @@ body, p, a, li, h3, h4, h5, h6 {
 .u-section-4 .u-group-elements-2 {
   width: 190px;
   min-height: 42px;
-  margin: 316px auto 0 14px;
+  margin: 280px auto 0 14px;
 }
 
 .u-section-4 .u-btn-2 {
@@ -647,7 +662,12 @@ body, p, a, li, h3, h4, h5, h6 {
 }
 
 .u-section-4 .u-image-3 {
-  background-image: url("images/2025-07-0102.52.09.jpg");
+  background-image: url("images/b3.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-4 .u-image-4 {
+  background-image: url("images/b4.jpg");
   background-position: 50% 50%;
 }
 
@@ -658,7 +678,7 @@ body, p, a, li, h3, h4, h5, h6 {
 .u-section-4 .u-group-elements-3 {
   width: 190px;
   min-height: 42px;
-  margin: 316px auto 0 14px;
+  margin: 280px auto 0 14px;
 }
 
 .u-section-4 .u-btn-3 {
@@ -1320,7 +1340,6 @@ body, p, a, li, h3, h4, h5, h6 {
 
 .u-section-7 .u-text-1 {
   margin: 60px auto 0;
-  font-size: 4.5rem;
   font-weight: 700;
 }
 

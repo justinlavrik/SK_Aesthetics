@@ -11,6 +11,21 @@
   margin: 50px auto 0;
 }
 
+.hp-image-container {
+  padding-top: 30px;
+}
+
+.centered-img {
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+  width: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
 @media (max-width: 991px) {
   .u-section-1 .u-text-2 {
     width: 720px;
@@ -811,7 +826,7 @@
     height: 1206px;
   }
 }.u-section-8 .u-sheet-1 {
-  min-height: 585px;
+  /* min-height: 585px; */
 }
 
 .u-section-8 .u-text-1 {
@@ -819,9 +834,21 @@
 }
 
 .u-section-8 .u-gallery-1 {
-  height: 396px;
-  width: 706px;
-  margin: 30px auto 60px;
+  height: 250px;
+  width: 300px;
+  margin: 30px auto 0;
+}
+
+.u-section-8 .u-gallery-2 {
+  height: 450px;
+  width: 300px;
+  margin: 30px auto 0;
+}
+
+.u-section-8 .u-gallery-3 {
+  height: 300px;
+  width: 300px;
+  margin: 30px auto 0;
 }
 
 .u-section-8 .u-carousel-indicators-1 {
@@ -869,13 +896,13 @@
 
 @media (max-width: 767px) {
   .u-section-8 .u-gallery-1 {
-    width: 540px;
+    width: 250px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-8 .u-sheet-1 {
-    min-height: 571px;
+    /* min-height: 571px; */
   }
 
   .u-section-8 .u-text-1 {
@@ -883,8 +910,8 @@
   }
 
   .u-section-8 .u-gallery-1 {
-    width: 340px;
-    margin-bottom: 53px;
+    width: 250px;
+   /* margin-bottom: 53px; */
   }
 }@font-face {
   font-family: 'SafiraMarchPersonalUseOnly';

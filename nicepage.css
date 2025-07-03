@@ -13,7 +13,7 @@ body, p, span, a, li, h1, h2, h3, h4, h5, h6, .u-text {
 .u-shading,
 .u-overlap.u-overlap-contrast .u-header h2,
 .u-overlap.u-overlap-contrast .u-header p, 
-.u-overlap.u-overlap-contrast .u-header #desktop-menu a,
+.u-overlap.u-overlap-contrast .u-header #desktop-menu a:not(.u-white),
 .u-overlap.u-overlap-contrast .u-header .u-hamburger-link {
   color: #ffffff !important;
 }
@@ -19751,7 +19751,7 @@ aside .u-categories.u-categories-vertical ul {
   top: 0;
   overflow: hidden;
   touch-action: none;
-  z-index: 1500;
+  z-index: 100002;
   -webkit-text-size-adjust: 100%;
   /* create separate layer, to avoid paint on window.onscroll in webkit/blink */
   -webkit-backface-visibility: hidden;
@@ -32454,7 +32454,7 @@ section.u-black:before,
 .u-container-layout.u-container-layout.u-black:before,
 .u-table-alt-black tr:nth-child(even) {
   color: #ffffff;
-  /* background-color: #000000; */
+  background-color: #000000;
 }
 .u-input.u-black,
 .u-field-input.u-black,
