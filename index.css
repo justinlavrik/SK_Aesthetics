@@ -60,6 +60,20 @@ body, p, a, li, h3, h4, h5, h6 {
 }
 
 
+.yButton {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+
+.u-section-9 h2,
+.u-section-9 h5,
+.u-section-9 p {
+  color: white !important;
+}
+
 
  
  

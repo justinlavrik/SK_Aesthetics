@@ -22057,12 +22057,21 @@ a.pswp__share--download:hover {
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+
 .u-back-image {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
+.u-dialog-open .u-back-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+
 .u-show-text-none .u-over-slide {
   display: none;
 }
