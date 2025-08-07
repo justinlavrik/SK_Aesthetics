@@ -1,10 +1,14 @@
 h1, h2, h3 {
-  font-family: 'SafiraMarchPersonalUseOnly', serif !important;
+  font-family: 'TenorSans-Regular', serif !important;
+  font-size: 40px;
+  line-height: 45px;
 }
 
 body, p, a, li, h4, h5, h6 {
-  font-family: 'Evolventa', sans-serif !important;
+  font-family: 'TenorSans-Regular', serif !important;
   font-weight: 300 !important;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 #block-2 .u-text-1,
@@ -56,7 +60,12 @@ body, p, a, li, h4, h5, h6 {
 
 
 .u-section-8 .u-gallery-inner-1 {
-  padding-bottom: 50px;
+  padding-bottom: 70px;
+  flex: none;
+}
+
+.u-section-8 .u-gallery-item {
+  aspect-ratio: 1 / 1;
 }
 
 
@@ -646,7 +655,7 @@ body, p, a, li, h4, h5, h6 {
 }
 
 .u-section-4 .u-image-2 {
-  background-image: url("images/b2.jpg");
+  background-image: url("images/b3.jpg");
   background-position: 50% 50%;
 }
 
@@ -681,7 +690,7 @@ body, p, a, li, h4, h5, h6 {
 }
 
 .u-section-4 .u-image-3 {
-  background-image: url("images/b3.jpg");
+  background-image: url("images/b2.jpg");
   background-position: 50% 50%;
 }
 
@@ -1892,6 +1901,7 @@ body, p, a, li, h4, h5, h6 {
   min-height: 80vh;
   grid-template-columns: repeat(5, auto);
   margin: 30px auto 0 0;
+  
 }
 
 .u-section-8 .u-gallery-inner-1 {
@@ -2022,7 +2032,7 @@ body, p, a, li, h4, h5, h6 {
 @media (max-width: 991px) {
   .u-section-8 .u-gallery-1 {
     grid-template-columns: repeat(3, auto);
-    min-height: 170vh;
+    /* min-height: 170vh; */
     margin-right: initial;
     margin-left: initial;
   }
@@ -2035,7 +2045,8 @@ body, p, a, li, h4, h5, h6 {
 @media (max-width: 767px) {
   .u-section-8 .u-gallery-1 {
     grid-template-columns: repeat(2, auto);
-    min-height: 130vh;
+    /* min-height: 130vh; */
+    /* margin-top: 0; */
     margin-right: initial;
     margin-left: initial;
   }
@@ -2052,7 +2063,7 @@ body, p, a, li, h4, h5, h6 {
 
   .u-section-8 .u-gallery-1 {
     grid-template-columns: repeat(2, auto);
-    min-height: 90vh;
+    /* min-height: 90vh; */
     margin-right: initial;
     margin-left: initial;
   }
