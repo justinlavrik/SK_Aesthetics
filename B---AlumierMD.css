@@ -1,3 +1,8 @@
+#logo h2, #logo p {
+  font-family: SafiraMarchPersonalUseOnly !important;
+}
+
+
 .u-section-1 .u-sheet-1 {
   min-height: 984px;
 }

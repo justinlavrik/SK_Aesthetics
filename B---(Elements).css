@@ -913,26 +913,12 @@
     width: 250px;
    /* margin-bottom: 53px; */
   }
-}@font-face {
-  font-family: 'SafiraMarchPersonalUseOnly';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/SafiraMarchPersonalUseOnly.ttf);
-}@font-face {
-  font-family: 'CormorantGaramond-VariableFont_wght';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/CormorantGaramond-VariableFont_wght.ttf);
-}
-/* page-custom-fonts */
 @font-face {
-  font-family: 'SafiraMarchPersonalUseOnly';
+  font-family: 'TenorSans-Regular';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/SafiraMarchPersonalUseOnly.ttf);
-}@font-face {
-  font-family: 'CormorantGaramond-VariableFont_wght';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/CormorantGaramond-VariableFont_wght.ttf);
+  src: url(fonts/TenorSans-Regular.ttf);
+}
+body, p, a, li, h1, h2, h3, h4, h5, h6 {
+  font-family: 'TenorSans-Regular', Arial, sans-serif !important;
 }

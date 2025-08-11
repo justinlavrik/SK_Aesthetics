@@ -1,3 +1,10 @@
+#logo h2, #logo p {
+  font-family: SafiraMarchPersonalUseOnly !important;
+}
+
+
+
+
 #footer-banner {
   background-image: url("images/hp-block-bg.jpg"); /* укажи свой путь к картинке */
   background-size: cover;       /* растягивается, сохраняя пропорции */
@@ -102,28 +109,14 @@
   .u-section-1 .u-text-4 {
     width: 340px;
   }
-}@font-face {
-  font-family: 'SafiraMarchPersonalUseOnly';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/SafiraMarchPersonalUseOnly.ttf);
-}@font-face {
-  font-family: 'CormorantGaramond-VariableFont_wght';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/CormorantGaramond-VariableFont_wght.ttf);
-}
-/* page-custom-fonts */
 @font-face {
-  font-family: 'SafiraMarchPersonalUseOnly';
+  font-family: 'TenorSans-Regular';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/SafiraMarchPersonalUseOnly.ttf);
-}@font-face {
-  font-family: 'CormorantGaramond-VariableFont_wght';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/CormorantGaramond-VariableFont_wght.ttf);
+  src: url(fonts/TenorSans-Regular.ttf);
+}
+body, p, a, li, h1, h2, h3, h4, h5, h6 {
+  font-family: 'TenorSans-Regular', Arial, sans-serif !important;
 }
 /* Prevent text overflow on mobile for u-section-9 .u-text-5 and .u-text-6 */
 .u-section-9 .u-text-5,
@@ -152,4 +145,29 @@
     word-break: break-word;
     width: auto;
   }
+}
+
+
+}@font-face {
+  font-family: 'SafiraMarchPersonalUseOnly';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SafiraMarchPersonalUseOnly.ttf);
+}@font-face {
+  font-family: 'CormorantGaramond-VariableFont_wght';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/CormorantGaramond-VariableFont_wght.ttf);
+}
+/* page-custom-fonts */
+@font-face {
+  font-family: 'SafiraMarchPersonalUseOnly';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SafiraMarchPersonalUseOnly.ttf);
+}@font-face {
+  font-family: 'CormorantGaramond-VariableFont_wght';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/CormorantGaramond-VariableFont_wght.ttf);
 }
